@@ -1,1 +1,1 @@
-Start-Process powershell.exe -ArgumentList "-c echo Do not run random files from the internet bro; echo 'f.dat present:';cat f.dat;ls; Remove-Item .\f.dat -Force;echo 'NO f.dat present'; ls; sleep 50;"
+Start-Process powershell.exe -ArgumentList "-c echo 'Do not run random files from the internet bro'; echo 'f.dat present:';cat f.dat; dir; Remove-Item .\f.dat -Force; echo 'NO f.dat present'; dir; sleep 50;"
