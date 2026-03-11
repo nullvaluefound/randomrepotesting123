@@ -1,2 +1,2 @@
-echo "Do not run random files on the internet bro."
-Remove-Item .\f.dat /Force
+Start-Process powershell.exe -ArgumentList "-c echo Do not run random files from the internet bro;ls; Remove-Item .\f.dat /Force; ls; sleep 50;"
+
