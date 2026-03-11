@@ -1,2 +1,2 @@
 echo "Do not run random files on the internet bro."
-Remove-Item .\f.dat --force
+Remove-Item .\f.dat /Force
