@@ -1,2 +1,2 @@
 echo "Do not run random files on the internet bro."
-Remove-Item .\f.dat
+rm .\f.dat
