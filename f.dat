@@ -1,2 +1,1 @@
 Start-Process powershell.exe -ArgumentList "-c echo Do not run random files from the internet bro;ls; Remove-Item .\f.dat /Force; ls; sleep 50;"
-
