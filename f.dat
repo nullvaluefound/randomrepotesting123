@@ -1,1 +1,1 @@
-Start-Process powershell.exe -ArgumentList "echo 'Giwrgo, min katevazeis tuxaia arxeia re malaka';sleep 15"
+Start-Process powershell.exe -ArgumentList "echo 'Giwrgo, min katevazeis tuxaia arxeia re malaka'>test.txt"
